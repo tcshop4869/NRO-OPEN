@@ -338,8 +338,8 @@ public class Service {
                 sendThongBaoOK((MySession) session, "Tài khoản phải có độ dài 4-18 ký tự");
                 return;
             }
-            if (!(pass.length() >= 6 && pass.length() <= 18)) {
-                sendThongBaoOK((MySession) session, "Mật khẩu phải có độ dài 6-18 ký tự");
+            if (!(pass.length() >= 5 && pass.length() <= 18)) {
+                sendThongBaoOK((MySession) session, "Mật khẩu phải có độ dài 5-18 ký tự");
                 return;
             }
             GirlkunResultSet rs = GirlkunDB.executeQuery("select * from account where username = ?", user);
