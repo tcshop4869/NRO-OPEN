@@ -168,7 +168,7 @@ public class Mob {
         tiemNang = Util.TamkjllGH(pl.nPoint.calSucManhTiemNang(tiemNang));
         if (pl.zone.map.mapId == 122 || pl.zone.map.mapId == 123 || pl.zone.map.mapId == 124 || pl.zone.map.mapId == 141 || pl.zone.map.mapId == 142 || pl.zone.map.mapId == 146) {
          
-        tiemNang *= 2;
+        tiemNang *= 50000;
         }
         return tiemNang;
     }

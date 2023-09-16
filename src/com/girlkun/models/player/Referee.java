@@ -67,7 +67,7 @@ public class Referee extends Player {
             if (m.mapId == 52) {
                 for (Zone z : m.zones) {
                     Referee pl = new Referee();
-                    pl.name = "ADMIN Việt";
+                    pl.name = "Công đẹp trai";
                     pl.gender = 0;
                     pl.id = id++;
                     pl.nPoint.hpMax = 69696969696969L;
@@ -82,7 +82,7 @@ public class Referee extends Player {
             } else if (m.mapId == 129) {
                 for (Zone z : m.zones) {
                     Referee pl = new Referee();
-                    pl.name = "ADMIN Việt";
+                    pl.name = "Công đẹp trai";
                     pl.gender = 0;
                     pl.id = id++;
                     pl.nPoint.hpMax = 69696969696969L;

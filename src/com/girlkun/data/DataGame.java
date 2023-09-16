@@ -36,7 +36,7 @@ public class DataGame {
     public static byte vsItem = 80;
     public static int vsRes = 752011;
 
-    public static String LINK_IP_PORT = "Girlkun75-1:14.225.254.48:14445:0";
+    public static String LINK_IP_PORT = "NRO:192.168.44.136:1444:0";//Girlkun75-1:14.225.254.48:14445
     private static final String MOUNT_NUM = "733:1,734:2,735:3,743:4,744:5,746:6,795:7,849:8,897:9,920:10";
     public static final Map MAP_MOUNT_NUM = new HashMap();
 
