@@ -1,5 +1,5 @@
 <?php
-	$apikey = '0CF40F0140E2A3626CFC17C590331002'; //API key, lấy từ website thesieutoc.net thay vào trong cặp dấu ''
+	$apikey = '8F788D09A7D4B923486277F947BB608B'; //API key, lấy từ website thesieutoc.net thay vào trong cặp dấu ''
 	// database Mysql config
 	$local_db = "localhost";
 	$user_db = "root";

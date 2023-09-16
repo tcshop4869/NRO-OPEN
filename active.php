@@ -29,7 +29,7 @@ if ($_status == '-1') {
 } elseif ($_status == '0' && $_coin >= 20000) {
     $coin = $_coin - 20000;
     $query = _query(_update('account', "active='-1',vnd='$coin'", "username='$_username'"));
-    
+
     if ($query) {
         $_alert = array(
             'type' => 'success',
@@ -63,14 +63,14 @@ if ($_status == '-1') {
 }
 
 // Show alert message
-if ($_alert != null) { 
+if ($_alert != null) {
     echo '
         <script type="text/javascript">
             $(document).ready(function(){
                 swal({
-                    title: "'.$_alert['title'].'",
-                    text: "'.$_alert['text'].'",
-                    type: "'.$_alert['type'].'",
+                    title: "' . $_alert['title'] . '",
+                    text: "' . $_alert['text'] . '",
+                    type: "' . $_alert['type'] . '",
                     confirmButtonText: "OK",
                 });
             });
