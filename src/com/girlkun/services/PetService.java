@@ -61,7 +61,6 @@ public class PetService {
         }).start();
     }
 
-
 //        public void createMabuPet(Player player, byte... limitPower) {
 //        new Thread(() -> {
 //            try {
@@ -75,7 +74,6 @@ public class PetService {
 //            }
 //        }).start();
 //    }
-
     public void createBerusPet(Player player, byte... limitPower) {
         new Thread(() -> {
             try {
@@ -192,7 +190,7 @@ public class PetService {
         createMabuPet1(player, gender, limitPower);
     }
 
-        public void changeMabuPet(Player player) {
+    public void changeMabuPet(Player player) {
         byte limitPower = player.pet.nPoint.limitPower;
         if (player.fusion.typeFusion != ConstPlayer.NON_FUSION) {
             player.pet.unFusion();
@@ -400,7 +398,6 @@ public class PetService {
     }
 
     //--------------------------------------------------------------------------
-
     public void createMabuPet1(Player plKill) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

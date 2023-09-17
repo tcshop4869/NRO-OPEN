@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  *
- * @author Dev Duy Péo
+ * @author Dev 
  */
 public class NgocRongNamecService implements Runnable{
     private static NgocRongNamecService instance;

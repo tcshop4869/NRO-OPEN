@@ -22,7 +22,6 @@ import java.sql.PreparedStatement;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-
 public class Clan {
 
     public static int NEXT_ID = 0;
@@ -50,7 +49,7 @@ public class Clan {
     public long timeOpenDoanhTrai;
     public String playerOpenDoanhTrai;
     public DoanhTrai doanhTrai;
-      public long timeOpenKhiGas;
+    public long timeOpenKhiGas;
     public Player playerOpenKhiGas;
     public Gas khiGas;
     public final List<ClanMember> members;
